@@ -1,5 +1,5 @@
 # csharp-dynamify
-Creates closures that allows any function to be executed `Func<object[] object>` while ensuring runtime type safety.
+Creates closures that allow any function to be executed `Func<object[] object>` while ensuring runtime type safety.
 
 ## What is this?
 This library allows you to create closures for functions so that they can be used like `MethodInfo.Invoke()`, except calls become exceptionally faster at the expense of upfront cost for caching.
