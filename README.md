@@ -31,4 +31,4 @@ var dynamicConcat = Dynamify.Make(concatDelegate);
 You can use this for events that require arguments to be sent as an object array. The event end points don't need to be known at compile time and can be gathered at runtime for execution. This is the communication method that will be used for my message passing framework for Unity, *Pigeon*.
 
 ## How does it perform?
-Much faster than MethodInfo.Invoke(), at least 7x faster. I will post performance numbers when the library is more completely.
+Much faster than MethodInfo.Invoke(), at least 7x faster. I will post performance numbers when the library is more completely. However, there is a high up front cost for the conversion.
