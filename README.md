@@ -9,7 +9,7 @@ You can dynamify any delegate (both Actions or Funcs), for example.
 
 ```csharp
 Func<string, string, string> concat = (a, b) => a + b;
-var dynamicConcat = Dynamify.Make(concat);
+var dynamicConcat = Dynamify.Make(concat); // Concat can be a member method if you pass it with Func<string, string, string> in front.
 
 var args = new object[] { "Hello", "World" };
 var result = dynamicConcat(args) as string; // == "HelloWorld";
