@@ -1,3 +1,7 @@
+# Don't use this anymore
+Use this instead: https://github.com/mhgar/csharp-cil-invoke
+It's slightly faster and much more concise.
+
 # csharp-dynamify
 Creates closures that allow any function to be executed `Func<object[] object>` while ensuring runtime type safety.
 
